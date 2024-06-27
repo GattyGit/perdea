@@ -1,0 +1,41 @@
+# Go
+/bin/
+/pkg/
+/vendor/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Local env files
+.env
+.env.*
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*~
+*.sublime-project
+*.sublime-workspace
+
+# Go modules
+go.sum
+
+# Echo specific
+/tmp/
+
+# Logs
+*.log
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+.air.toml
